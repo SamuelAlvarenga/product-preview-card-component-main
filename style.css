@@ -17,8 +17,14 @@ main {
   background: #fff;
 }
 
-main img.product-img {
-  width: 23rem;
+main img.product-img-mobile {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+main img.product-img-desktop {
+  display: none;
+  width: 100%;
   border-radius: 1rem 1rem 0 0;
 }
 
@@ -83,4 +89,34 @@ main button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1rem;
+}
+
+@media (min-width: 1025px) {
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 1rem;
+    width: 42rem;
+    margin: 1rem auto 0;
+    background: #fff;
+  }
+
+  main img.product-img-mobile {
+    display: none;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  main img.product-img-desktop {
+    display: block;
+    width: 20rem;
+    border-radius: 1rem 0 0 1rem;
+  }
+  main section.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem;
+  }
 }
