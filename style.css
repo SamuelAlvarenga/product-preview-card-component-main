@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(30, 38%, 92%);
+}
+
+main {
+  border-radius: 1rem;
+  width: 23rem;
+  margin: 10rem auto 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+}
+
+main img.product-img {
+  width: 23rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+main section.info {
+  width: 90%;
+  padding: 0.8rem;
+}
+
+main span.category {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+}
+
+main h1 {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: black;
+  margin: 0.8rem auto;
+}
+
+main p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+}
