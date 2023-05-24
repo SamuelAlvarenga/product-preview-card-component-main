@@ -10,7 +10,7 @@ body {
 main {
   border-radius: 1rem;
   width: 23rem;
-  margin: 10rem auto 0;
+  margin: 1rem auto 0;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -41,12 +41,46 @@ main h1 {
   font-weight: 700;
   font-size: 2rem;
   color: black;
-  margin: 0.8rem auto;
+  margin: 0.6rem auto;
 }
 
 main p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 0.9rem;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.6rem;
+}
+main .price-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 1rem auto;
+}
+section span.price-now {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+  margin-right: 1rem;
+}
+
+section span.price-before {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+main button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  color: #fff;
+  background-color: hsl(158, 36%, 37%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-size: 1rem;
-  color: black;
 }
